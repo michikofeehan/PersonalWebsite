@@ -1,48 +1,68 @@
 
- .wrapper{
- 	width:auto;
- 	height:auto;
- 	background:black;
- 	margin: 0 auto 0 auto;
+/* Fill up entire page */
+ html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper{
+ 	background:#F0F0F0;
+ 	padding: 20px;
+ 	border-bottom-color: #F0F0F0;
  }
 
+/* No header  for now*/
  .heading{
- 	height:100px;
- 	background:black;
- 	padding: 17px;
+ 	height:0px;
+ 	background:#F0F0F0;
+ 	padding: 1px;
  	text-align: center; 
- 	color:white;
- 	font-size:20pt;
+ 	color:black;
+ 	font-size:10pt;
  }
 
+/* No navigation for now*/
  .navigation{
- 	height:60px;
- 	padding: 17px;
- 	color: white;
- 	background:#ff5050;
+ 	background:#F0F0F0;
  }
+
 
  .content{
+ 	
  	min-height:400px;
- 	background:#ddd;
+ 	background:#F0F0F0;
  	width: 70%;
- 	padding: 10px;
- 	float:left;
+ 	float:right;
+    
  }
 
  .sidebar{
- 	width:26%;
+ 	margin: 0;
+ 	width:auto;
  	height:auto;
- 	padding: 10px;
- 	float:right;
- 	color:white;
- 	background: black;
- 	min-height:auto;
+ 	color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+      
+ 
+ 	 /*
+    font-family: Helvetica, Arial, sans-serif;	float:left;
+    */
+   
+   
+
+/*padding: 5px;
+ 	color:#000000;
+ 	background: #F0F0F0;*/
  }
 
  .footer{
  	clear:both;
+ 	font-size:9pt;
+ 	letter-spacing: 1px;
+ 	margin: 0;
  	background:#ff5050;
+ 	width:auto;
  	height:5%;
  	color:white;
  	text-align: center;
