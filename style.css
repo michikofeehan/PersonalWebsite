@@ -1,43 +1,50 @@
-  .wrapper{
- 	width:600px;
- 	background:#eee;
+
+ .wrapper{
+ 	width:auto;
+ 	height:auto;
+ 	background:black;
  	margin: 0 auto 0 auto;
  }
 
  .heading{
  	height:100px;
- 	background:red;
- 	padding: 20px;
+ 	background:black;
+ 	padding: 17px;
  	text-align: center; 
  	color:white;
- 	font-size:60pt;
- 	font-family:big john;
+ 	font-size:20pt;
  }
 
  .navigation{
- 	height:50px;
- 	background:lightgreen;
+ 	height:60px;
+ 	padding: 17px;
+ 	color: white;
+ 	background:#ff5050;
  }
 
  .content{
  	min-height:400px;
  	background:#ddd;
- 	width: 400px;
+ 	width: 70%;
+ 	padding: 10px;
  	float:left;
  }
 
  .sidebar{
- 	width:200px;
+ 	width:26%;
+ 	height:auto;
+ 	padding: 10px;
  	float:right;
- 	background: lightblue;
- 	min-height:400px;
+ 	color:white;
+ 	background: black;
+ 	min-height:auto;
  }
 
  .footer{
  	clear:both;
- 	background:black;
- 	height:40px;
+ 	background:#ff5050;
+ 	height:5%;
  	color:white;
  	text-align: center;
- 	padding:10px;
+ 	padding:20px;
  }
