@@ -1,2 +1,1 @@
- 
-https://github.com/michikofeehan/PersonalWebsite
+https://michikofeehan.github.io/PersonalWebsite/
