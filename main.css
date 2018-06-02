@@ -1,0 +1,57 @@
+body {
+     /*background: #eecda3; /* fallback for old browsers */
+     /*background: -webkit-linear-gradient(to right, #eecda3, #ef629f); /* Chrome 10-25, Safari 5.1-6 */
+     /*background: linear-gradient(to right, #eecda3, #ef629f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+background: #283048; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283048, #859398); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283048, #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-image: url("images/bb.svg")*/
+    /*background-size: cover*/
+    font-family: /*Chalkboard, */sans-serif;
+}
+
+.main {
+    border-color: #FFFFFF;
+    border-style: dotted;
+    margin: 20px;
+    padding: 20px;
+}
+a {
+    color: Black;
+}
+h1 {
+    /*font-size: 1rem;*/
+    color: #FFFFFF;
+}
+
+h2 {
+    /*font-size: .7rem;*/
+    color: #FFFFFF;
+}
+
+h3 {
+    /*font-size: .5rem;*/
+    color: #FFFFFF;
+}
+
+p {
+    /*font-size: .5rem;*/
+    color: #FFFFFF;
+}
+
+ul {
+    /*font-size: .5rem;*/
+    color: #FFFFFF;
+}
+
+.disclaimer {
+    font-size: .4rem;
+    color: #FFFFFF;
+}
+
+#pack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
